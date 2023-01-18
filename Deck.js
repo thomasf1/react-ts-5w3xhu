@@ -21,7 +21,7 @@ const all_videos = [
   {
     w: 720,
     h: 1280,
-    file: 'https://cdn.jsdelivr.net/gh/thomasf1/react-ts-5w3xhu@main/public/RW20seconds_2.mp4',
+    file: 'https://cdn.jsdelivr.net/gh/thomasf1/react-ts-5w3xhu@main/public/RW20seconds_2a.mp4',
   },
 ];
 
@@ -58,6 +58,7 @@ function Deck() {
 
   for (key = i = 0, len = videos.length; i < len; key = ++i) {
     video = videos[key];
+    console.log(key, video)
     props[key].video = video;
   }
   //console.log('props, api', props, api);
