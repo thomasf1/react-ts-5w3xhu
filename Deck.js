@@ -6,7 +6,6 @@ import { useSprings, animated, to as interpolate } from '@react-spring/web';
 import { useDrag } from '@use-gesture/react';
 
 import VideoPlayer from './VideoPlayer';
-//import videojs from 'video.js';
 
 const all_videos = [
   {
