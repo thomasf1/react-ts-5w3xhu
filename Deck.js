@@ -12,17 +12,17 @@ const all_videos = [
   {
     w: 480,
     h: 270,
-    file: 'https://file-examples.com/storage/fe2879c03363c669a9ef954/2017/04/file_example_MP4_480_1_5MG.mp4',
+    file: 'https://cdn.jsdelivr.net/gh/thomasf1/react-ts-5w3xhu@main/public/file_example_MP4_480_1_5MG.mp4',
   },
   {
     w: 720,
     h: 1280,
-    file: 'https://www.exit109.com/~dnn/clips/RW20seconds_1.mp4',
+    file: 'https://cdn.jsdelivr.net/gh/thomasf1/react-ts-5w3xhu@main/public/RW20seconds_1.mp4',
   },
   {
     w: 720,
     h: 1280,
-    file: 'https://www.exit109.com/~dnn/clips/RW20seconds_2.mp4',
+    file: 'https://cdn.jsdelivr.net/gh/thomasf1/react-ts-5w3xhu@main/public/RW20seconds_2.mp4',
   },
 ];
 
