@@ -49,7 +49,7 @@ export const VideoPlayer = (props) => {
     });
   };
 
-  const options = props.options || videoJsOptions;
+  const options = props.options || {...videoJsOptions};
   const onReady = props.onReady || handlePlayerReady;
 
   if (props.file) {
